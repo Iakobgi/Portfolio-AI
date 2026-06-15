@@ -63,7 +63,7 @@ N'utilise pas **, *, #, -, ou des liens Markdown.
 """
 
         response = client.chat.completions.create(
-            model="openrouter/free",
+            model="openrouter/auto",
             messages=[
                 {
                     "role": "system",
