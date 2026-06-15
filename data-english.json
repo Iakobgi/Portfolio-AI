@@ -1,0 +1,223 @@
+{
+  "personal": {
+    "name": "Iakobi Iakobashvili",
+    "title": "Junior Full-Stack and AI developer",
+    "location": "Fontaine-le-Comte, France",
+    "email": "jacob.acc.pro@email.com",
+    "linkedin": "https://www.linkedin.com/in/iakobi-iakobashvili-b157a9230",
+    "github": "https://github.com/Iakobgi",
+    "summary": "Junior developer looking for a 12-month apprenticeship. Focused on AI and full-stack development."
+  },
+  "apprenticeship": {
+    "status": "Currently looking for a 12-month apprenticeship as a junior developer.",
+    "availability": "Available from November 2026 for an apprenticeship.",
+    "goals": "Looking for a company where I can use my skills and knowledge to contribute to real projects that the company needs, continue learning in a supportive team, and validate the third year of the bachelor in web, app development and AI."
+  },
+  "skills": {
+    "technical": [
+      "HTML",
+      "CSS",
+      "PHP",
+      "SQL",
+      "JavaScript",
+      "C++",
+      "Python",
+      "GitHub",
+      "AI and ML fundamentals"
+    ],
+    "learning": [
+      "React",
+      "Node.js",
+      "Dart",
+      "Flutter",
+      "Docker",
+      "RAG Pipeline",
+      "UI/UX",
+      "AI as a Service",
+      "AI/API"
+    ],
+    "soft": [
+      "Autonomous",
+      "Curious",
+      "Creative",
+      "Adaptable",
+      "Flexible",
+      "Versatile"
+    ]
+  },
+  "education": [
+    {
+      "degree": "Bachelor 3",
+      "school": "IPSSI Grande école de Paris",
+      "year": "2026 - 2027",
+      "details": "Focused on full-stack and application development, AI, JavaScript, responsive design, and project-based learning."
+    },
+    {
+      "degree": "BTS CIEL-IR",
+      "school": "Lycée Pilote Innovant et International (LP2I)",
+      "year": "2023 - 2025",
+      "details": "Focused on general IT, systems and networking, programming and cybersecurity."
+    }
+  ],
+  "experience": [
+    {
+      "role": "Personal Projects Developer",
+      "company": "Freelance / Personal Work",
+      "year": "2026 - Present",
+      "details": "Built personal web projects to improve front-end skills, UI design, and JavaScript logic."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portfolio Website",
+      "shortDescription": "A modern responsive portfolio website built with HTML, CSS and JavaScript.",
+      "description": "A personal responsive portfolio website created to present profile, skills and projects in a modern and recruiter-friendly way.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JSON"
+      ]
+    },
+    {
+      "name": "Web Browsing Analyser",
+      "shortDescription": "A Chrome extension that analyzes browsing data, cookies and trackers.",
+      "description": "A Chrome extension designed to help users understand browsing activity, cookies and tracking technologies with a focus on privacy awareness.",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Chrome Extension APIs"
+      ]
+    },
+    {
+      "name": "Personal Chatbot",
+      "shortDescription": "A personal chatbot project currently in progress.",
+      "description": "A personal assistant chatbot project designed to answer questions and present useful profile information.",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "API Integration"
+      ]
+    },
+    {
+      "name": "Coming Soon Project",
+      "shortDescription": "A new project will be added soon.",
+      "description": "This project is not unlocked yet.",
+      "technologies": []
+    }
+  ],
+  "languages": [
+    "English",
+    "French"
+  ],
+  "interests": [
+    "Music",
+    "AI",
+    "Programming",
+    "Gym",
+    "Science",
+    "New technologies",
+    "Travel",
+    "Cinema"
+  ],
+  "ui": {
+    "siteTitle": "Iakobi Iakobashvili | Junior Developer",
+    "logo": "My Portfolio",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "heroBadge": "Available for apprenticeship",
+    "buttons": {
+      "downloadCV": "Download CV",
+      "exploreProjects": "Explore Projects",
+      "sourceCode": "Source Code",
+      "livePreview": "Live Preview",
+      "comingSoon": "Coming Soon"
+    },
+    "about": {
+      "eyebrow": "About",
+      "title": "Building clean digital experiences",
+      "subtitle": "A quick introduction",
+      "who": "Who I Am",
+      "looking": "What I’m Looking For",
+      "interests": "Hobbies & Interests"
+    },
+    "skills": {
+      "eyebrow": "Skills",
+      "title": "Tech stack & tools",
+      "subtitle": "Technologies I use and explore"
+    },
+    "projects": {
+      "eyebrow": "Projects",
+      "title": "Selected work",
+      "subtitle": "Browse my recent projects",
+      "seeDetails": "See details",
+      "comingSoon": "Coming soon",
+      "locked": "Locked",
+      "comingSoonTag": "Coming Soon",
+      "nextProject": "Next Project"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Let’s connect",
+      "subtitle": "Quick ways to reach me",
+      "linkedin": "My LinkedIn"
+    },
+    "chatbot": {
+      "title": "Portfolio Assistant",
+      "welcome": "Hi! I can help you quickly learn more about Iakobi. Ask me anything about his profile, projects, skills, or apprenticeship search.",
+      "try": "Try questions like:",
+      "q1": "What skills does he have?",
+      "q2": "Is he looking for an apprenticeship?",
+      "q3": "What projects did he build?",
+      "q4": "How can I contact him?",
+      "placeholder": "Ask a question...",
+      "loading": "My profile data is still loading. Please try again in a second.",
+      "fallback": "I do not have that exact information yet. Try asking about skills, education, projects, experience, apprenticeship, contact, GitHub, LinkedIn, or location."
+    }
+  },
+  "projectPages": [
+    {
+      "eyebrow": "Project 01",
+      "title": "Portfolio Website",
+      "subtitle": "My personal portfolio project",
+      "descriptionTitle": "Description",
+      "description": "This project is my personal portfolio website. I built it to present my profile, my skills, my projects and my apprenticeship search in a clean and modern way.",
+      "technologiesTitle": "Technologies",
+      "technologies": "HTML, CSS, JavaScript, JSON",
+      "learnedTitle": "What I learned",
+      "learned": "Responsive design, reusable sections, project presentation, JavaScript interactions and portfolio structure.",
+      "imageAlt": "Portfolio Website"
+    },
+    {
+      "eyebrow": "Project 02",
+      "title": "Chrome Extension - Web Browsing Analyser",
+      "subtitle": "A privacy-focused browser tool",
+      "descriptionTitle": "Description",
+      "description": "This project is a Chrome extension that helps analyze web browsing activity, cookies and trackers. It is focused on privacy awareness and browser-side analysis. The project is still under development but you can access the source code on my GitHub page.",
+      "technologiesTitle": "Technologies",
+      "technologies": "JavaScript, HTML, CSS, Chrome Extension APIs",
+      "learnedTitle": "What I learned",
+      "learned": "Extension structure, browser permissions, manifest setup, privacy-related data handling and front-end interface design.",
+      "imageAlt": "Chrome Extension - Web Browsing Analyser"
+    },
+    {
+      "eyebrow": "Project 03",
+      "title": "Personal Chatbot",
+      "subtitle": "Currently in progress",
+      "descriptionTitle": "Description",
+      "description": "This is a personal chatbot project designed to answer questions based on personal data and information. The chatbot will be able to provide insights, answer queries and assist with various tasks related to the user's personal information. The goal is to create a useful tool that can present personal information and improve interaction inside a personal website or locally without internet connection. It is still in development and will be released soon.",
+      "technologiesTitle": "Planned technologies",
+      "technologies": "JavaScript, API integration, HTML, CSS, Python",
+      "learnedTitle": "Status",
+      "learned": "Coming soon. This project is still under development.",
+      "imageAlt": "Personal Chatbot"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "personal": {
+    "name": "Iakobi Iakobashvili",
+    "title": "Développeur Full-Stack et IA Junior",
+    "location": "Fontaine-le-Comte, France",
+    "email": "jacob.acc.pro@email.com",
+    "linkedin": "https://www.linkedin.com/in/iakobi-iakobashvili-b157a9230",
+    "github": "https://github.com/Iakobgi",
+    "summary": "Développeur junior à la recherche d'une alternance de 12 mois. Passionné par l'intelligence artificielle et le développement full-stack."
+  },
+  "apprenticeship": {
+    "status": "Actuellement à la recherche d'une alternance de 12 mois en tant que développeur junior.",
+    "availability": "Disponible à partir de novembre 2026 pour une alternance.",
+    "goals": "Je recherche une entreprise dans laquelle je pourrai mettre à profit mes compétences et mes connaissances sur des projets concrets, continuer à apprendre au sein d'une équipe et valider ma troisième année de Bachelor en développement web, applicatif et IA."
+  },
+  "skills": {
+    "technical": [
+      "HTML",
+      "CSS",
+      "PHP",
+      "SQL",
+      "JavaScript",
+      "C++",
+      "Python",
+      "GitHub",
+      "Fondamentaux de l'IA et du Machine Learning"
+    ],
+    "learning": [
+      "React",
+      "Node.js",
+      "Dart",
+      "Flutter",
+      "Docker",
+      "Pipeline RAG",
+      "UI/UX",
+      "IA as a Service",
+      "IA/API"
+    ],
+    "soft": [
+      "Autonome",
+      "Curieux",
+      "Créatif",
+      "Adaptable",
+      "Flexible",
+      "Polyvalent"
+    ]
+  },
+  "education": [
+    {
+      "degree": "Bachelor 3",
+      "school": "IPSSI Grande École de Paris",
+      "year": "2026 - 2027",
+      "details": "Formation axée sur le développement full-stack et applicatif, l'intelligence artificielle, JavaScript, le responsive design et les projets concrets."
+    },
+    {
+      "degree": "BTS CIEL-IR",
+      "school": "Lycée Pilote Innovant International (LP2I)",
+      "year": "2023 - 2025",
+      "details": "Formation axée sur l'informatique générale, les systèmes et réseaux, la programmation et la cybersécurité."
+    }
+  ],
+  "experience": [
+    {
+      "role": "Développeur de projets personnels",
+      "company": "Freelance / Projets personnels",
+      "year": "2026 - Aujourd'hui",
+      "details": "Développement de projets web personnels afin d'améliorer mes compétences en développement front-end, en conception d'interfaces et en logique JavaScript."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Site Portfolio",
+      "shortDescription": "Un portfolio moderne et responsive développé avec HTML, CSS et JavaScript.",
+      "description": "Un site portfolio personnel conçu pour présenter mon profil, mes compétences et mes projets de manière moderne et adaptée aux recruteurs.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JSON"
+      ]
+    },
+    {
+      "name": "Analyseur de Navigation Web",
+      "shortDescription": "Une extension Chrome qui analyse les données de navigation, les cookies et les traceurs.",
+      "description": "Une extension Chrome conçue pour aider les utilisateurs à comprendre leur activité de navigation, les cookies et les technologies de suivi, avec un accent sur la sensibilisation à la confidentialité.",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "API Extensions Chrome"
+      ]
+    },
+    {
+      "name": "Chatbot Personnel",
+      "shortDescription": "Un projet de chatbot personnel actuellement en cours de développement.",
+      "description": "Un assistant conversationnel conçu pour répondre à des questions et présenter des informations utiles à partir de données personnalisées.",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Intégration d'API"
+      ]
+    },
+    {
+      "name": "Projet à venir",
+      "shortDescription": "Un nouveau projet sera ajouté prochainement.",
+      "description": "Ce projet n'est pas encore disponible.",
+      "technologies": []
+    }
+  ],
+  "languages": [
+    "Français",
+    "Anglais"
+  ],
+  "interests": [
+    "Musique",
+    "Intelligence artificielle",
+    "Programmation",
+    "Musculation",
+    "Sciences",
+    "Nouvelles technologies",
+    "Voyages",
+    "Cinéma"
+  ],
+  "ui": {
+    "siteTitle": "Iakobi Iakobashvili | Développeur Junior",
+    "logo": "Mon Portfolio",
+    "nav": {
+      "home": "Accueil",
+      "about": "À propos",
+      "skills": "Compétences",
+      "projects": "Projets",
+      "contact": "Contact"
+    },
+    "heroBadge": "Disponible pour une alternance",
+    "buttons": {
+      "downloadCV": "Télécharger le CV",
+      "exploreProjects": "Voir les projets",
+      "sourceCode": "Code source",
+      "livePreview": "Aperçu",
+      "comingSoon": "Bientôt disponible"
+    },
+    "about": {
+      "eyebrow": "À propos",
+      "title": "Créer des expériences numériques propres",
+      "subtitle": "Présentation rapide",
+      "who": "Qui je suis",
+      "looking": "Ce que je recherche",
+      "interests": "Centres d’intérêt"
+    },
+    "skills": {
+      "eyebrow": "Compétences",
+      "title": "Technologies & outils",
+      "subtitle": "Technologies que j’utilise et que j’explore"
+    },
+    "projects": {
+      "eyebrow": "Projets",
+      "title": "Projets sélectionnés",
+      "subtitle": "Découvrez mes projets récents",
+      "seeDetails": "Voir les détails",
+      "comingSoon": "Bientôt disponible",
+      "locked": "Verrouillé",
+      "comingSoonTag": "À venir",
+      "nextProject": "Prochain projet"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Restons en contact",
+      "subtitle": "Moyens rapides pour me contacter",
+      "linkedin": "Mon LinkedIn"
+    },
+    "chatbot": {
+      "title": "Assistant Portfolio",
+      "welcome": "Bonjour ! Je peux vous aider à en savoir plus rapidement sur Iakobi. Posez-moi une question sur son profil, ses projets, ses compétences ou sa recherche d’alternance.",
+      "try": "Exemples de questions :",
+      "q1": "Quelles sont ses compétences ?",
+      "q2": "Recherche-t-il une alternance ?",
+      "q3": "Quels projets a-t-il réalisés ?",
+      "q4": "Comment le contacter ?",
+      "placeholder": "Posez une question...",
+      "loading": "Les données du profil sont encore en chargement. Réessayez dans un instant.",
+      "fallback": "Je n’ai pas encore cette information précise. Essayez de poser une question sur les compétences, la formation, les projets, l’expérience, l’alternance, le contact, GitHub, LinkedIn ou la localisation."
+    }
+  },
+  "projectPages": [
+    {
+      "eyebrow": "Projet 01",
+      "title": "Site Portfolio",
+      "subtitle": "Mon projet de portfolio personnel",
+      "descriptionTitle": "Description",
+      "description": "Ce projet est mon site portfolio personnel. Je l’ai créé pour présenter mon profil, mes compétences, mes projets et ma recherche d’alternance de manière claire, moderne et professionnelle.",
+      "technologiesTitle": "Technologies",
+      "technologies": "HTML, CSS, JavaScript, JSON",
+      "learnedTitle": "Ce que j’ai appris",
+      "learned": "Responsive design, sections réutilisables, présentation de projets, interactions JavaScript et structure d’un portfolio.",
+      "imageAlt": "Site Portfolio"
+    },
+    {
+      "eyebrow": "Projet 02",
+      "title": "Extension Chrome - Analyseur de Navigation Web",
+      "subtitle": "Un outil navigateur orienté confidentialité",
+      "descriptionTitle": "Description",
+      "description": "Ce projet est une extension Chrome qui aide à analyser l’activité de navigation web, les cookies et les traceurs. Il est axé sur la sensibilisation à la confidentialité et l’analyse côté navigateur. Le projet est encore en développement, mais le code source est accessible sur ma page GitHub.",
+      "technologiesTitle": "Technologies",
+      "technologies": "JavaScript, HTML, CSS, API Extensions Chrome",
+      "learnedTitle": "Ce que j’ai appris",
+      "learned": "Structure d’une extension, permissions navigateur, configuration du manifest, gestion de données liées à la confidentialité et conception d’interface front-end.",
+      "imageAlt": "Extension Chrome - Analyseur de Navigation Web"
+    },
+    {
+      "eyebrow": "Projet 03",
+      "title": "Chatbot Personnel",
+      "subtitle": "Actuellement en développement",
+      "descriptionTitle": "Description",
+      "description": "Ce projet est un chatbot personnel conçu pour répondre à des questions à partir de données et d’informations personnalisées. L’objectif est de créer un outil utile capable de présenter des informations personnelles et d’améliorer l’interaction dans un site personnel ou localement. Le projet est encore en développement et sera publié prochainement.",
+      "technologiesTitle": "Technologies prévues",
+      "technologies": "JavaScript, intégration d’API, HTML, CSS, Python",
+      "learnedTitle": "Statut",
+      "learned": "Bientôt disponible. Ce projet est encore en cours de développement.",
+      "imageAlt": "Chatbot Personnel"
+    }
+  ]
+}
