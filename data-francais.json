@@ -1,40 +1,58 @@
 {
   "personal": {
     "name": "Iakobi Iakobashvili",
-    "title": "Développeur Full-Stack et IA Junior",
+    "title": "Développeur Full-Stack, IA & DevOps",
     "location": "Fontaine-le-Comte, France",
-    "email": "jacob.acc.pro@email.com",
+    "email": "iakobi.dev@gmail.com",
+    "phone": "+33 7 62 70 16 71",
     "linkedin": "https://www.linkedin.com/in/iakobi-iakobashvili-b157a9230",
     "github": "https://github.com/Iakobgi",
-    "summary": "Développeur junior à la recherche d'une alternance de 12 mois. Passionné par l'intelligence artificielle et le développement full-stack."
+    "portfolio": "https://iakobgi.github.io/portfolio/",
+    "summary": "Développeur junior à la recherche d'une alternance de 12 mois, axé sur l'intelligence artificielle, DevOps et le développement full-stack.",
+    "myself": "Je m'appelle Iakobi Iakobashvili, j'ai 24 ans et je suis un développeur junior spécialisé en développement Full-Stack, DevOps et Intelligence Artificielle.",
+    "chatbotSummary": "Je suis un développeur junior spécialisé dans les applications full-stack, les assistants IA, les pratiques DevOps et la livraison de produits concrets. J'aime créer des applications web responsives, des chatbots personnalisés et des outils d'automatisation.",
+    "chatbotBio": "Je suis basé à Fontaine-le-Comte, en France, et je suis passionné par le développement full-stack, l'IA, l'automatisation et la création de produits numériques utiles pour de vrais utilisateurs."
   },
   "apprenticeship": {
     "status": "Actuellement à la recherche d'une alternance de 12 mois en tant que développeur junior.",
-    "availability": "Disponible à partir de novembre 2026 pour une alternance.",
-    "goals": "Je recherche une entreprise dans laquelle je pourrai mettre à profit mes compétences et mes connaissances sur des projets concrets, continuer à apprendre au sein d'une équipe et valider ma troisième année de Bachelor en développement web, applicatif et IA."
+    "availability": "Disponible à partir de septembre 2026 pour une alternance.",
+    "goals": "Je recherche une entreprise dans laquelle je pourrai mettre à profit mes compétences et mes connaissances sur des projets concrets, continuer à apprendre au sein d'une équipe et valider ma troisième année de Bachelor en développement web, applicatif, IA et DevOps.",
+    "chatbotStatus": "Actuellement à la recherche d'une alternance de 12 mois en tant que développeur junior full-stack, IA ou DevOps.",
+    "chatbotGoals": "Je recherche une entreprise où je pourrai contribuer à des projets concrets, évoluer au sein d'une équipe bienveillante et valider ma troisième année de bachelor tout en développant des solutions web et IA concrètes."
   },
   "skills": {
     "technical": [
-      "HTML",
-      "CSS",
+      "HTML/CSS",
       "PHP",
       "SQL",
       "JavaScript",
       "C++",
       "Python",
-      "GitHub",
-      "Fondamentaux de l'IA et du Machine Learning"
-    ],
-    "learning": [
+      "Bash",
+      "Dart",
       "React",
       "Node.js",
-      "Dart",
       "Flutter",
+      "Symfony",
+      "API REST",
+      "Git/GitHub",
       "Docker",
-      "Pipeline RAG",
+      "JSON",
+      "UML",
+      "QT Creator",
+      "Intégration d'API IA",
+      "Hugging Face",
+      "Google Colab",
+      "Pipelines RAG"
+    ],
+    "learning": [
+      "CI/CD",
+      "Déploiement cloud",
+      "Agents IA avancés",
+      "Orchestration LLM",
       "UI/UX",
-      "IA as a Service",
-      "IA/API"
+      "AIaaS",
+      "APIs LLM"
     ],
     "soft": [
       "Autonome",
@@ -47,31 +65,49 @@
   },
   "education": [
     {
-      "degree": "Bachelor 3",
-      "school": "IPSSI Grande École de Paris",
+      "degree": "Bachelor 3 - Big Data, IA & Dev",
+      "school": "IPSSI - Paris Grande École Informatique",
       "year": "2026 - 2027",
-      "details": "Formation axée sur le développement full-stack et applicatif, l'intelligence artificielle, JavaScript, le responsive design et les projets concrets."
+      "details": "Formation axée sur le développement d'applications, le full-stack, l'IA, le DevOps, les données et les projets concrets, avec un fort intérêt pour la réalisation professionnelle."
     },
     {
       "degree": "BTS CIEL-IR",
-      "school": "Lycée Pilote Innovant International (LP2I)",
+      "school": "LP2I - Lycée Pilote Innovant et International",
       "year": "2023 - 2025",
-      "details": "Formation axée sur l'informatique générale, les systèmes et réseaux, la programmation et la cybersécurité."
+      "details": "Formation axée sur le développement web et logiciel, les systèmes et réseaux, la programmation, la cybersécurité, les stages et les projets collaboratifs."
     }
   ],
   "experience": [
     {
-      "role": "Développeur de projets personnels",
-      "company": "Freelance / Projets personnels",
-      "year": "2026 - Aujourd'hui",
-      "details": "Développement de projets web personnels afin d'améliorer mes compétences en développement front-end, en conception d'interfaces et en logique JavaScript."
+      "role": "Développeur de chatbot IA",
+      "company": "Projet personnel",
+      "year": "Depuis janvier 2026",
+      "details": "Création d'un chatbot IA en Python utilisant des APIs OpenRouter, des données personnelles au format JSON, une interface web et un déploiement sur serveur."
+    },
+    {
+      "role": "Développeur web",
+      "company": "Rhein Development Systems GmbH (freelance via Fiverr)",
+      "year": "Juin 2026 - Juillet 2026",
+      "details": "Création d'un site web responsive et moderne pour un client, avec une structure professionnelle et une attention particulière à l'expérience utilisateur."
+    },
+    {
+      "role": "Développeur web",
+      "company": "Projet personnel de portfolio",
+      "year": "Février 2026 - Mai 2026",
+      "details": "Développement d'un portfolio responsive bilingue en HTML, CSS et JavaScript, avec un assistant IA intégré."
+    },
+    {
+      "role": "Technicien support informatique",
+      "company": "IH2EF",
+      "year": "Octobre 2025 - Décembre 2025",
+      "details": "Accompagnement des utilisateurs, dépannage, gestion de tickets, déploiement Windows, remplacement de matériel et gestion de parc informatique."
     }
   ],
   "projects": [
     {
       "name": "Site Portfolio",
       "shortDescription": "Un portfolio moderne et responsive développé avec HTML, CSS et JavaScript.",
-      "description": "Un site portfolio personnel conçu pour présenter mon profil, mes compétences et mes projets de manière moderne et adaptée aux recruteurs.",
+      "description": "Un portfolio personnel bilingue conçu pour présenter mon profil, mes compétences et mes projets de façon moderne et adaptée aux recruteurs, avec un assistant intégré et une interface soignée.",
       "technologies": [
         "HTML",
         "CSS",
@@ -82,7 +118,7 @@
     {
       "name": "Analyseur de Navigation Web",
       "shortDescription": "Une extension Chrome qui analyse les données de navigation, les cookies et les traceurs.",
-      "description": "Une extension Chrome conçue pour aider les utilisateurs à comprendre leur activité de navigation, les cookies et les technologies de suivi, avec un accent sur la sensibilisation à la confidentialité.",
+      "description": "Une extension Chrome conçue pour aider les utilisateurs à comprendre leur activité de navigation, les cookies et les technologies de suivi, avec un accent sur la confidentialité et l'analyse côté navigateur.",
       "technologies": [
         "JavaScript",
         "HTML",
@@ -93,24 +129,33 @@
     {
       "name": "Chatbot Personnel",
       "shortDescription": "Un projet de chatbot personnel actuellement en cours de développement.",
-      "description": "Un assistant conversationnel conçu pour répondre à des questions et présenter des informations utiles à partir de données personnalisées.",
+      "description": "Un assistant conversationnel conçu pour répondre à des questions sur mon profil et présenter des informations utiles. Il repose sur Python, des APIs IA, des données JSON et une interface web.",
       "technologies": [
+        "Python",
         "JavaScript",
         "HTML",
         "CSS",
-        "Intégration d'API"
+        "OpenRouter API",
+        "JSON"
       ]
     },
     {
-      "name": "Projet à venir",
-      "shortDescription": "Un nouveau projet sera ajouté prochainement.",
-      "description": "Ce projet n'est pas encore disponible.",
-      "technologies": []
+      "name": "RheinDevSys - Site Web Client",
+      "shortDescription": "Une solution web professionnelle créée pour un client prestataire de services.",
+      "description": "Un projet de développement web freelance réalisé pour RheinDevSys, une entreprise fournissant des services de développement. Le site met en avant leurs services avec une expérience professionnelle et responsive.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Design Responsive"
+      ]
     }
   ],
   "languages": [
     "Français",
-    "Anglais"
+    "Anglais",
+    "Géorgien",
+    "Russe"
   ],
   "interests": [
     "Musique",
@@ -119,6 +164,7 @@
     "Musculation",
     "Sciences",
     "Nouvelles technologies",
+    "Cybersécurité",
     "Voyages",
     "Cinéma"
   ],
@@ -172,11 +218,12 @@
     "chatbot": {
       "title": "Assistant Portfolio",
       "welcome": "Bonjour ! Je peux vous aider à en savoir plus rapidement sur Iakobi. Posez-moi une question sur son profil, ses projets, ses compétences ou sa recherche d’alternance.",
-      "try": "Exemples de questions :",
+      "try": "Information importante :",
       "q1": "Quelles sont ses compétences ?",
       "q2": "Recherche-t-il une alternance ?",
       "q3": "Quels projets a-t-il réalisés ?",
       "q4": "Comment le contacter ?",
+      "q5": "⚠️ Veuillez noter que la première réponse peut prendre jusqu’à une minute à être générée. Les réponses suivantes seront ensuite beaucoup plus rapides. Ce problème sera corrigé très prochainement. Merci de votre patience.",
       "placeholder": "Posez une question...",
       "loading": "Les données du profil sont encore en chargement. Réessayez dans un instant.",
       "fallback": "Je n’ai pas encore cette information précise. Essayez de poser une question sur les compétences, la formation, les projets, l’expérience, l’alternance, le contact, GitHub, LinkedIn ou la localisation."
@@ -217,7 +264,17 @@
       "technologies": "JavaScript, intégration d’API, HTML, CSS, Python",
       "learnedTitle": "Statut",
       "learned": "Bientôt disponible. Ce projet est encore en cours de développement.",
-      "imageAlt": "Chatbot Personnel"
-    }
+      "imageAlt": "Chatbot Personnel"    },
+    {
+      "eyebrow": "Projet 04",
+      "title": "RheinDevSys - Site Web Client",
+      "subtitle": "Une solution web professionnelle pour un client prestataire de développement",
+      "descriptionTitle": "Description",
+      "description": "Ce projet est un projet freelance réalisé pour un client via Fiverr. J'ai développé un site web professionnel et moderne pour RheinDevSys, une entreprise fournissant des services de développement et assistance technique. Le site présente leurs services, leur portfolio, et offre une plateforme pour les demandes et l'engagement des clients.",
+      "technologiesTitle": "Technologies",
+      "technologies": "HTML, CSS, JavaScript, Design Responsive",
+      "learnedTitle": "Ce que j'ai appris",
+      "learned": "Communication avec le client et compréhension des besoins, normes professionnelles en conception web, implémentation de mise en page responsive, déploiement en production, et gestion des attentes du client tout au long du processus de développement.",
+      "imageAlt": "Site Web RheinDevSys"    }
   ]
 }

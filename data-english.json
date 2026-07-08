@@ -1,40 +1,58 @@
 {
   "personal": {
     "name": "Iakobi Iakobashvili",
-    "title": "Junior Full-Stack and AI developer",
+    "title": "Full-Stack, AI & DevOps Developer",
     "location": "Fontaine-le-Comte, France",
-    "email": "jacob.acc.pro@email.com",
+    "email": "iakobi.dev@gmail.com",
+    "phone": "+33 7 62 70 16 71",
     "linkedin": "https://www.linkedin.com/in/iakobi-iakobashvili-b157a9230",
     "github": "https://github.com/Iakobgi",
-    "summary": "Junior developer looking for a 12-month apprenticeship. Focused on AI and full-stack development."
+    "portfolio": "https://iakobgi.github.io/portfolio/",
+    "summary": "Junior developer looking for a 12-month apprenticeship, focused on AI, DevOps and Full-Stack development.",
+    "myself": "My name is Iakobi Iakobashvili, I am 24 years old and I am a junior developer specialized in Full-Stack development, DevOps and Artificial Intelligence.",
+    "chatbotSummary": "I am a junior developer focused on full-stack applications, AI assistants, DevOps practices, and practical product delivery. I enjoy building responsive web apps, custom chatbots, and automation tools.",
+    "chatbotBio": "I am based in Fontaine-le-Comte, France, and I am passionate about full-stack development, AI, automation, and building useful digital products for real users."
   },
   "apprenticeship": {
     "status": "Currently looking for a 12-month apprenticeship as a junior developer.",
-    "availability": "Available from November 2026 for an apprenticeship.",
-    "goals": "Looking for a company where I can use my skills and knowledge to contribute to real projects that the company needs, continue learning in a supportive team, and validate the third year of the bachelor in web, app development and AI."
+    "availability": "Available from September 2026 for an apprenticeship.",
+    "goals": "Looking for a company where I can use my skills and knowledge to contribute to real projects that the company needs, continue learning in a supportive team, and validate the third year of the bachelor in web, app development, AI and DevOps.",
+    "chatbotStatus": "Currently looking for a 12-month apprenticeship as a junior full-stack, AI or DevOps developer.",
+    "chatbotGoals": "I am looking for a company where I can contribute to real projects, grow within a supportive team, and validate the third year of my bachelor's degree while developing practical web and AI solutions."
   },
   "skills": {
     "technical": [
-      "HTML",
-      "CSS",
+      "HTML/CSS",
       "PHP",
       "SQL",
       "JavaScript",
       "C++",
       "Python",
-      "GitHub",
-      "AI and ML fundamentals"
-    ],
-    "learning": [
+      "Bash",
+      "Dart",
       "React",
       "Node.js",
-      "Dart",
       "Flutter",
+      "Symfony",
+      "REST APIs",
+      "Git/GitHub",
       "Docker",
-      "RAG Pipeline",
+      "JSON",
+      "UML",
+      "QT Creator",
+      "AI API Integration",
+      "Hugging Face",
+      "Google Colab",
+      "RAG Pipelines"
+    ],
+    "learning": [
+      "CI/CD",
+      "Cloud deployment",
+      "Advanced AI agents",
+      "LLM orchestration",
       "UI/UX",
-      "AI as a Service",
-      "AI/API"
+      "AIaaS",
+      "LLM APIs"
     ],
     "soft": [
       "Autonomous",
@@ -47,31 +65,49 @@
   },
   "education": [
     {
-      "degree": "Bachelor 3",
-      "school": "IPSSI Grande école de Paris",
+      "degree": "Bachelor 3 - Big Data, AI & Dev",
+      "school": "IPSSI - Paris Grande École Informatique",
       "year": "2026 - 2027",
-      "details": "Focused on full-stack and application development, AI, JavaScript, responsive design, and project-based learning."
+      "details": "Focused on application development, full-stack development, AI, DevOps, data, and project-based learning, with a strong interest in practical and professional delivery."
     },
     {
       "degree": "BTS CIEL-IR",
-      "school": "Lycée Pilote Innovant et International (LP2I)",
+      "school": "LP2I - Lycée Pilote Innovant et International",
       "year": "2023 - 2025",
-      "details": "Focused on general IT, systems and networking, programming and cybersecurity."
+      "details": "Focused on web and software development, systems and networks, programming, cybersecurity, internships, and collaborative projects."
     }
   ],
   "experience": [
     {
-      "role": "Personal Projects Developer",
-      "company": "Freelance / Personal Work",
-      "year": "2026 - Present",
-      "details": "Built personal web projects to improve front-end skills, UI design, and JavaScript logic."
+      "role": "AI Chatbot Developer",
+      "company": "Personal project",
+      "year": "Since January 2026",
+      "details": "Built a personal AI chatbot in Python using OpenRouter APIs, JSON-based personal data, a web interface, and server deployment."
+    },
+    {
+      "role": "Web Developer",
+      "company": "Rhein Development Systems GmbH (freelance via Fiverr)",
+      "year": "June 2026 - July 2026",
+      "details": "Created a modern responsive website for a client, with a professional structure and strong emphasis on user experience."
+    },
+    {
+      "role": "Web Developer",
+      "company": "Personal portfolio project",
+      "year": "February 2026 - May 2026",
+      "details": "Built a bilingual responsive portfolio in HTML, CSS and JavaScript, with an integrated personal AI assistant."
+    },
+    {
+      "role": "IT Support Technician",
+      "company": "IH2EF",
+      "year": "October 2025 - December 2025",
+      "details": "Handled user support, troubleshooting, ticketing, Windows deployment, hardware replacement, and IT inventory management."
     }
   ],
   "projects": [
     {
       "name": "Portfolio Website",
       "shortDescription": "A modern responsive portfolio website built with HTML, CSS and JavaScript.",
-      "description": "A personal responsive portfolio website created to present profile, skills and projects in a modern and recruiter-friendly way.",
+      "description": "A bilingual personal portfolio website created to present my profile, skills and projects in a modern and recruiter-friendly way, with an integrated assistant and polished UI.",
       "technologies": [
         "HTML",
         "CSS",
@@ -82,7 +118,7 @@
     {
       "name": "Web Browsing Analyser",
       "shortDescription": "A Chrome extension that analyzes browsing data, cookies and trackers.",
-      "description": "A Chrome extension designed to help users understand browsing activity, cookies and tracking technologies with a focus on privacy awareness.",
+      "description": "A Chrome extension designed to help users understand their browsing activity, cookies and tracking technologies with a focus on privacy awareness and browser-side analysis.",
       "technologies": [
         "JavaScript",
         "HTML",
@@ -93,24 +129,33 @@
     {
       "name": "Personal Chatbot",
       "shortDescription": "A personal chatbot project currently in progress.",
-      "description": "A personal assistant chatbot project designed to answer questions and present useful profile information.",
+      "description": "A personal assistant chatbot project designed to answer questions about my profile and present useful information. It uses Python, AI APIs, JSON data and a web interface for a more interactive experience.",
       "technologies": [
+        "Python",
         "JavaScript",
         "HTML",
         "CSS",
-        "API Integration"
+        "OpenRouter API",
+        "JSON"
       ]
     },
     {
-      "name": "Coming Soon Project",
-      "shortDescription": "A new project will be added soon.",
-      "description": "This project is not unlocked yet.",
-      "technologies": []
+      "name": "RheinDevSys - Client Website",
+      "shortDescription": "A professional web solution built for a development services client.",
+      "description": "A freelance web development project completed for RheinDevSys, a company providing development services. The website showcases their services and provides a clean experience for potential clients.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Responsive Design"
+      ]
     }
   ],
   "languages": [
     "English",
-    "French"
+    "French",
+    "Georgian",
+    "Russian"
   ],
   "interests": [
     "Music",
@@ -119,6 +164,7 @@
     "Gym",
     "Science",
     "New technologies",
+    "Cybersecurity",
     "Travel",
     "Cinema"
   ],
@@ -172,11 +218,12 @@
     "chatbot": {
       "title": "Portfolio Assistant",
       "welcome": "Hi! I can help you quickly learn more about Iakobi. Ask me anything about his profile, projects, skills, or apprenticeship search.",
-      "try": "Try questions like:",
+      "try": "Important notice:",
       "q1": "What skills does he have?",
       "q2": "Is he looking for an apprenticeship?",
       "q3": "What projects did he build?",
       "q4": "How can I contact him?",
+      "q5": "⚠️ Please note that the first response may take up to a minute to generate. Subsequent responses will be much faster. This issue will be fixed very soon. Thank you for your patience.",
       "placeholder": "Ask a question...",
       "loading": "My profile data is still loading. Please try again in a second.",
       "fallback": "I do not have that exact information yet. Try asking about skills, education, projects, experience, apprenticeship, contact, GitHub, LinkedIn, or location."
@@ -218,6 +265,18 @@
       "learnedTitle": "Status",
       "learned": "Coming soon. This project is still under development.",
       "imageAlt": "Personal Chatbot"
+    },
+    {
+      "eyebrow": "Project 04",
+      "title": "RheinDevSys - Client Website",
+      "subtitle": "A professional web solution for a development services client",
+      "descriptionTitle": "Description",
+      "description": "This is a freelance project completed for a client through Fiverr. I developed a professional, modern website for RheinDevSys, a company providing development and technical services. The website showcases their services, portfolio, and provides a platform for client inquiries and engagement.",
+      "technologiesTitle": "Technologies",
+      "technologies": "HTML, CSS, JavaScript, Responsive Design",
+      "learnedTitle": "What I learned",
+      "learned": "Client communication and requirements gathering, professional web design standards, responsive layout implementation, deployment to production, and managing client expectations throughout the development process.",
+      "imageAlt": "RheinDevSys Website"
     }
   ]
 }
