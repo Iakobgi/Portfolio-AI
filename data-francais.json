@@ -1,24 +1,25 @@
 {
   "personal": {
     "name": "Iakobi Iakobashvili",
-    "title": "Développeur Full-Stack, IA & DevOps",
+    "title": "Développeur Full-Stack",
     "location": "Fontaine-le-Comte, France",
     "email": "iakobi.dev@gmail.com",
     "phone": "+33 7 62 70 16 71",
     "linkedin": "https://www.linkedin.com/in/iakobi-iakobashvili-b157a9230",
     "github": "https://github.com/Iakobgi",
-    "portfolio": "https://iakobgi.github.io/portfolio/",
-    "summary": "Développeur junior à la recherche d'une alternance de 12 mois, axé sur l'intelligence artificielle, DevOps et le développement full-stack.",
+    "portfolio": "https://iakob.netlify.app/",
+    "summary": "Développeur junior à la recherche d'une alternance de 12 mois à partir de novembre 2026, axé sur le développement Full-Stack, l'Intelligence Artificielle et le DevOps.",
     "myself": "Je m'appelle Iakobi Iakobashvili, j'ai 24 ans et je suis un développeur junior spécialisé en développement Full-Stack, DevOps et Intelligence Artificielle.",
-    "chatbotSummary": "Je suis un développeur junior spécialisé dans les applications full-stack, les assistants IA, les pratiques DevOps et la livraison de produits concrets. J'aime créer des applications web responsives, des chatbots personnalisés et des outils d'automatisation.",
-    "chatbotBio": "Je suis basé à Fontaine-le-Comte, en France, et je suis passionné par le développement full-stack, l'IA, l'automatisation et la création de produits numériques utiles pour de vrais utilisateurs."
+    "contactForm": "https://iakob.netlify.app/contact.html",
+    "drivingLicence": "Permis B",
+    "personalVehicle": true
   },
   "apprenticeship": {
-    "status": "Actuellement à la recherche d'une alternance de 12 mois en tant que développeur junior.",
-    "availability": "Disponible à partir de septembre 2026 pour une alternance.",
+    "status": "Actuellement à la recherche d'une alternance de 12 mois en tant que développeur junior à partir de novembre 2026.",
+    "availability": "Disponible à partir de novembre 2026.",
     "goals": "Je recherche une entreprise dans laquelle je pourrai mettre à profit mes compétences et mes connaissances sur des projets concrets, continuer à apprendre au sein d'une équipe et valider ma troisième année de Bachelor en développement web, applicatif, IA et DevOps.",
-    "chatbotStatus": "Actuellement à la recherche d'une alternance de 12 mois en tant que développeur junior full-stack, IA ou DevOps.",
-    "chatbotGoals": "Je recherche une entreprise où je pourrai contribuer à des projets concrets, évoluer au sein d'une équipe bienveillante et valider ma troisième année de bachelor tout en développant des solutions web et IA concrètes."
+    "schedule": "3 semaines en entreprise / 1 semaine en formation à distance.",
+    "mobility": "Mobile sur toute la France ; déménagement possible."
   },
   "skills": {
     "technical": [
@@ -28,31 +29,31 @@
       "JavaScript",
       "C++",
       "Python",
-      "Bash",
-      "Dart",
-      "React",
-      "Node.js",
-      "Flutter",
-      "Symfony",
-      "API REST",
-      "Git/GitHub",
-      "Docker",
-      "JSON",
+      "GitHub",
+      "Déploiement cloud",
+      "Linux",
       "UML",
-      "QT Creator",
-      "Intégration d'API IA",
+      "Qt Creator",
+      "APIs LLM",
       "Hugging Face",
-      "Google Colab",
-      "Pipelines RAG"
+      "UI/UX"
     ],
     "learning": [
       "CI/CD",
-      "Déploiement cloud",
-      "Agents IA avancés",
-      "Orchestration LLM",
-      "UI/UX",
-      "AIaaS",
-      "APIs LLM"
+      "Services IA cloud",
+      "FastAPI",
+      "TypeScript",
+      "Dart",
+      "React",
+      "Angular",
+      "Node.js",
+      "Flutter",
+      "Symfony",
+      "Pipelines RAG",
+      "Docker",
+      "API REST",
+      "Git",
+      "Bash"
     ],
     "soft": [
       "Autonome",
@@ -61,14 +62,31 @@
       "Adaptable",
       "Flexible",
       "Polyvalent"
-    ]
+    ],
+    "additionalToolsFromCV": [
+      "PostgreSQL",
+      "MySQL",
+      "MariaDB",
+      "Supabase",
+      "Playwright",
+      "Oracle Cloud",
+      "Cloudflare",
+      "Netlify",
+      "Render",
+      "Hostinger",
+      "Visual Studio Code",
+      "GLPI",
+      "Scikit-learn"
+    ],
+    "additionalToolsNote": "Outils mentionnés dans le CV ; aucun niveau de maîtrise supplémentaire n’est précisé. Conserver la distinction entre compétences acquises et en apprentissage."
   },
   "education": [
     {
       "degree": "Bachelor 3 - Big Data, IA & Dev",
       "school": "IPSSI - Paris Grande École Informatique",
       "year": "2026 - 2027",
-      "details": "Formation axée sur le développement d'applications, le full-stack, l'IA, le DevOps, les données et les projets concrets, avec un fort intérêt pour la réalisation professionnelle."
+      "details": "Formation axée sur le développement d'applications, le full-stack, l'IA, le DevOps, les données et les projets concrets, avec un fort intérêt pour la réalisation professionnelle.",
+      "format": "Formation à distance et en alternance à partir de début novembre 2026."
     },
     {
       "degree": "BTS CIEL-IR",
@@ -82,38 +100,57 @@
       "role": "Développeur de chatbot IA",
       "company": "Projet personnel",
       "year": "Depuis janvier 2026",
-      "details": "Création d'un chatbot IA en Python utilisant des APIs OpenRouter, des données personnelles au format JSON, une interface web et un déploiement sur serveur."
+      "details": "Développement d’un assistant IA personnel avec des données de profil JSON et une interface web bilingue. La version intégrée au portfolio utilise JavaScript/TypeScript, Cloudflare Workers et des APIs IA."
     },
     {
       "role": "Développeur web",
       "company": "Rhein Development Systems GmbH (freelance via Fiverr)",
-      "year": "Juin 2026 - Juillet 2026",
-      "details": "Création d'un site web responsive et moderne pour un client, avec une structure professionnelle et une attention particulière à l'expérience utilisateur."
+      "year": "Juillet 2026",
+      "details": "Création d'un site web responsive et moderne pour un client, avec une structure professionnelle et une attention particulière à l'expérience utilisateur. Déploiement sur Hostinger et optimisation SEO et des performances web."
     },
     {
       "role": "Développeur web",
       "company": "Projet personnel de portfolio",
-      "year": "Février 2026 - Mai 2026",
+      "year": "Février 2026 - Juin 2026",
       "details": "Développement d'un portfolio responsive bilingue en HTML, CSS et JavaScript, avec un assistant IA intégré."
     },
     {
       "role": "Technicien support informatique",
       "company": "IH2EF",
       "year": "Octobre 2025 - Décembre 2025",
-      "details": "Accompagnement des utilisateurs, dépannage, gestion de tickets, déploiement Windows, remplacement de matériel et gestion de parc informatique."
+      "details": "Support utilisateurs, diagnostic et résolution d’incidents ; gestion de tickets avec GLPI ; installation, clonage et configuration de postes Windows/Linux ; maintenance du parc informatique.",
+      "contract": "CDD"
+    },
+    {
+      "role": "Développeur - Serres connectées",
+      "company": "LP2I",
+      "year": "Février 2025 - Juin 2025",
+      "context": "Projet académique de BTS",
+      "details": "Projet académique de BTS : réception des mesures de température et d’humidité par XBee, traitement en C++/Qt, affichage local et LED, sauvegarde MySQL et transmission distante par modem Sigfox. La documentation présente l’architecture, le code et les manipulations du prototype."
+    },
+    {
+      "role": "Intégration IA et configuration backend - Stage BTS",
+      "company": "ISAE-ENSMA",
+      "year": "Juin 2024 - Juillet 2024",
+      "context": "Stage",
+      "details": "Configuration d’un environnement IA local avec Ollama et Open WebUI, utilisation de modèles Mistral/Mixtral, personnalisation de chatbots et intégration de fonctions documentaires PDF et de génération d’images."
     }
   ],
   "projects": [
     {
       "name": "Site Portfolio",
       "shortDescription": "Un portfolio moderne et responsive développé avec HTML, CSS et JavaScript.",
-      "description": "Un portfolio personnel bilingue conçu pour présenter mon profil, mes compétences et mes projets de façon moderne et adaptée aux recruteurs, avec un assistant intégré et une interface soignée.",
+      "description": "Un portfolio personnel bilingue conçu pour présenter mon profil, mes compétences et mes projets de façon moderne et adaptée aux recruteurs. Il intègre un assistant IA réel côté backend, capable de répondre à des questions sur mon profil, mes compétences, mes projets et ma recherche d'alternance, avec une interface fluide et professionnelle.",
       "technologies": [
         "HTML",
         "CSS",
         "JavaScript",
-        "JSON"
-      ]
+        "JSON",
+        "Cloudflare Workers",
+        "API IA"
+      ],
+      "pageUrl": "https://iakob.netlify.app/project1.html",
+      "liveUrl": "https://iakob.netlify.app/"
     },
     {
       "name": "Analyseur de Navigation Web",
@@ -124,31 +161,108 @@
         "HTML",
         "CSS",
         "API Extensions Chrome"
+      ],
+      "pageUrl": "https://iakob.netlify.app/project2.html",
+      "status": "En développement",
+      "plannedFeatures": [
+        "Activation du blocage des traceurs détectés : fonctionnalité prévue, pas encore implémentée."
       ]
     },
     {
-      "name": "Chatbot Personnel",
-      "shortDescription": "Un projet de chatbot personnel actuellement en cours de développement.",
-      "description": "Un assistant conversationnel conçu pour répondre à des questions sur mon profil et présenter des informations utiles. Il repose sur Python, des APIs IA, des données JSON et une interface web.",
+      "name": "Assistant IA du portfolio",
+      "shortDescription": "Un assistant IA interactif pour découvrir mon profil et mes projets.",
+      "description": "Assistant IA intégré au portfolio pour répondre aux questions sur mon profil, mes compétences, mes projets et ma recherche d’alternance. Il utilise une API IA et des données de profil au format JSON dans une interface de conversation bilingue.",
       "technologies": [
-        "Python",
         "JavaScript",
+        "TypeScript",
         "HTML",
         "CSS",
-        "OpenRouter API",
-        "JSON"
-      ]
+        "JSON",
+        "Cloudflare Workers",
+        "Groq API",
+        "Gemini API",
+        "OpenRouter API"
+      ],
+      "pageUrl": "https://iakob.netlify.app/project3.html",
+      "demo": "Le bouton Démo en direct sur la page du projet ouvre le chatbot. Le chatbot est aussi accessible depuis le bouton flottant de la page d’accueil et de chaque page projet."
     },
     {
-      "name": "RheinDevSys - Site Web Client",
+      "name": "Site Web Client via Fiverr",
       "shortDescription": "Une solution web professionnelle créée pour un client prestataire de services.",
-      "description": "Un projet de développement web freelance réalisé pour RheinDevSys, une entreprise fournissant des services de développement. Le site met en avant leurs services avec une expérience professionnelle et responsive.",
+      "description": "Un projet de développement web freelance réalisé pour rheindevsys, une entreprise fournissant des services de développement. Le site met en avant leurs services avec une expérience professionnelle et responsive.",
       "technologies": [
         "HTML",
         "CSS",
         "JavaScript",
         "Design Responsive"
-      ]
+      ],
+      "pageUrl": "https://iakob.netlify.app/project4.html",
+      "liveUrl": "https://www.rheindevsys.com/"
+    },
+    {
+      "name": "Tableau de bord SEO/GEO avec IA",
+      "shortDescription": "Audits SEO/GEO, recommandations IA et suivi des optimisations.",
+      "description": "Tableau de bord full-stack pour auditer des URL, calculer des scores SEO et GEO et générer des recommandations avec l’IA. Il comprend le suivi de mots-clés, l’analyse concurrentielle et des cycles de ré-audit. Frontend React/TypeScript, API FastAPI et base PostgreSQL.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "OpenRouter",
+        "Nginx",
+        "GitHub Actions"
+      ],
+      "pageUrl": "https://iakob.netlify.app/project5.html",
+      "liveUrl": "http://141.145.220.152",
+      "sourceUrl": "https://github.com/Iakobgi/seo-geo-dashboard",
+      "startDate": "Août 2026"
+    },
+    {
+      "name": "Surveillance de serre connectée",
+      "shortDescription": "Suivi de température et d’humidité avec C++/Qt, XBee, MySQL et Sigfox.",
+      "description": "Projet académique de BTS : réception des mesures de température et d’humidité par XBee, traitement en C++/Qt, affichage local et LED, sauvegarde MySQL et transmission distante par modem Sigfox. La documentation présente l’architecture, le code et les manipulations du prototype.",
+      "technologies": [
+        "C++",
+        "Qt",
+        "XBee",
+        "UART / RS232",
+        "MySQL",
+        "PHP",
+        "Sigfox"
+      ],
+      "pageUrl": "https://iakob.netlify.app/project6.html",
+      "context": "Projet académique BTS",
+      "documentation": {
+        "language": "fr",
+        "pdfUrl": "https://iakob.netlify.app/documents/greenhouse-documentation.pdf",
+        "availability": "Aperçu lisible et PDF téléchargeable sur la page du projet."
+      },
+      "period": "Février - Juin 2025"
+    },
+    {
+      "name": "Installation d’un environnement IA local",
+      "shortDescription": "Installation d’Ollama et Open WebUI pour utiliser des modèles IA localement.",
+      "description": "Étude de cas de stage consacrée à l’installation et à la configuration d’un environnement IA local avec WSL, Ollama, Pinokio et Open WebUI. Le rapport couvre le chargement de modèles, les fonctions documentaires et l’intégration de Stable Diffusion. Ces outils existants constituent la plateforme utilisée.",
+      "technologies": [
+        "WSL",
+        "Ubuntu",
+        "Ollama",
+        "Open WebUI",
+        "Pinokio",
+        "Stable Diffusion"
+      ],
+      "pageUrl": "https://iakob.netlify.app/project7.html",
+      "context": "Étude de cas de stage",
+      "documentation": {
+        "language": "fr",
+        "pdfUrl": "https://iakob.netlify.app/documents/local-ai-documentation.pdf",
+        "availability": "Aperçu lisible et PDF téléchargeable sur la page du projet."
+      },
+      "scope": "Installation et configuration d’outils existants. La documentation ne démontre pas d’entraînement de modèle.",
+      "organization": "ISAE-ENSMA",
+      "period": "Juin - Juillet 2024"
     }
   ],
   "languages": [
@@ -164,12 +278,12 @@
     "Musculation",
     "Sciences",
     "Nouvelles technologies",
-    "Cybersécurité",
+    "Guitare électrique",
     "Voyages",
     "Cinéma"
   ],
   "ui": {
-    "siteTitle": "Iakobi Iakobashvili | Développeur Junior",
+    "siteTitle": "Iakobi Iakobashvili - Développeur Junior",
     "logo": "Mon Portfolio",
     "nav": {
       "home": "Accueil",
@@ -184,7 +298,10 @@
       "exploreProjects": "Voir les projets",
       "sourceCode": "Code source",
       "livePreview": "Aperçu",
-      "comingSoon": "Bientôt disponible"
+      "comingSoon": "Bientôt disponible",
+      "viewDocumentation": "Voir la documentation",
+      "downloadDocumentation": "Télécharger le PDF",
+      "liveDemo": "Démo en direct"
     },
     "about": {
       "eyebrow": "À propos",
@@ -197,7 +314,15 @@
     "skills": {
       "eyebrow": "Compétences",
       "title": "Technologies & outils",
-      "subtitle": "Technologies que j’utilise et que j’explore"
+      "subtitle": "Technologies que j’utilise et que j’explore",
+      "groups": {
+        "frontend": "Frontend & Applications",
+        "backend": "Backend & APIs",
+        "ai": "IA & LLM",
+        "devops": "DevOps & Cloud",
+        "systems": "Logiciel & Systèmes",
+        "mindset": "Savoir-être"
+      }
     },
     "projects": {
       "eyebrow": "Projets",
@@ -207,23 +332,62 @@
       "comingSoon": "Bientôt disponible",
       "locked": "Verrouillé",
       "comingSoonTag": "À venir",
-      "nextProject": "Prochain projet"
+      "nextProject": "Prochain projet",
+      "documentationTitle": "Documentation du projet",
+      "documentationFallback": "Ouvrir le PDF dans un nouvel onglet"
     },
     "contact": {
       "eyebrow": "Contact",
       "title": "Restons en contact",
-      "subtitle": "Moyens rapides pour me contacter",
-      "linkedin": "Mon LinkedIn"
+      "subtitle": "Moyens rapides pour me contacter - ou utilisez le formulaire sur la page dédiée.",
+      "linkedin": "Mon LinkedIn",
+      "formCta": "Ouvrir le formulaire de contact"
+    },
+    "contactForm": {
+      "filename": "nouveau_message.js",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "role": "Fonction / Entreprise (optionnel)",
+      "email": "Email",
+      "phone": "Téléphone (optionnel)",
+      "city": "Ville (optionnel)",
+      "subject": "Sujet",
+      "message": "Message",
+      "send": "Envoyer le message",
+      "sending": "Envoi en cours…",
+      "success": "Merci ! Votre message a bien été envoyé, je vous répondrai rapidement.",
+      "error": "Merci de remplir tous les champs obligatoires avant l'envoi.",
+      "errorInvalidEmail": "Merci d'indiquer une adresse email valide.",
+      "fallback": "Le serveur n'a pas répondu, j'ai donc ouvert votre messagerie avec le message pré-rempli."
+    },
+    "contactPage": {
+      "eyebrow": "Contact",
+      "title": "Construisons quelque chose",
+      "subtitle": "Un projet, une opportunité, ou juste envie de dire bonjour ? Remplissez le formulaire ci-dessous ou contactez-moi directement par email ou LinkedIn.",
+      "cardTitle": "contact_card.json",
+      "responseTimeLabel": "Temps de réponse",
+      "responseTimeValue": "Généralement sous 24h",
+      "preferredLabel": "Contact préféré",
+      "preferredValue": "Email ou formulaire du site",
+      "backHome": "Retour à l'accueil"
+    },
+    "thankYouPage": {
+      "eyebrow": "Message envoyé",
+      "title": "Merci, c'est bien reçu !",
+      "subtitle": "Votre message a bien été reçu. Je vous répondrai dès que possible, généralement sous 24h.",
+      "backHome": "Retour à l'accueil",
+      "backContact": "Envoyer un autre message"
     },
     "chatbot": {
       "title": "Assistant Portfolio",
       "welcome": "Bonjour ! Je peux vous aider à en savoir plus rapidement sur Iakobi. Posez-moi une question sur son profil, ses projets, ses compétences ou sa recherche d’alternance.",
-      "try": "Information importante :",
+      "toastLabel": "Assistant IA",
+      "toastMessage": "Bonjour ! Il y a un assistant IA sur ce portfolio. Posez-lui toutes vos questions sur Iakobi.",
+      "try": "Essayez l’une de ces questions :",
       "q1": "Quelles sont ses compétences ?",
       "q2": "Recherche-t-il une alternance ?",
       "q3": "Quels projets a-t-il réalisés ?",
       "q4": "Comment le contacter ?",
-      "q5": "⚠️ Veuillez noter que la première réponse peut prendre jusqu’à une minute à être générée. Les réponses suivantes seront ensuite beaucoup plus rapides. Ce problème sera corrigé très prochainement. Merci de votre patience.",
       "placeholder": "Posez une question...",
       "loading": "Les données du profil sont encore en chargement. Réessayez dans un instant.",
       "fallback": "Je n’ai pas encore cette information précise. Essayez de poser une question sur les compétences, la formation, les projets, l’expérience, l’alternance, le contact, GitHub, LinkedIn ou la localisation."
@@ -231,19 +395,19 @@
   },
   "projectPages": [
     {
-      "eyebrow": "Projet 01",
+      "eyebrow": "Projet 03",
       "title": "Site Portfolio",
       "subtitle": "Mon projet de portfolio personnel",
       "descriptionTitle": "Description",
-      "description": "Ce projet est mon site portfolio personnel. Je l’ai créé pour présenter mon profil, mes compétences, mes projets et ma recherche d’alternance de manière claire, moderne et professionnelle.",
+      "description": "Ce projet est mon site portfolio personnel. Je l’ai créé pour présenter mon profil, mes compétences, mes projets et ma recherche d’alternance de manière claire, moderne et professionnelle. Le site inclut aussi un assistant IA intégré côté backend, fonctionnant comme un vrai assistant conversationnel capable de répondre à des questions sur moi et sur mon parcours, avec une expérience utilisateur fluide et interactive.",
       "technologiesTitle": "Technologies",
-      "technologies": "HTML, CSS, JavaScript, JSON",
+      "technologies": "HTML, CSS, JavaScript, JSON, Cloudflare Workers, API IA",
       "learnedTitle": "Ce que j’ai appris",
-      "learned": "Responsive design, sections réutilisables, présentation de projets, interactions JavaScript et structure d’un portfolio.",
+      "learned": "Responsive design, sections réutilisables, présentation de projets, interactions JavaScript, intégration backend d’un assistant IA et architecture légère pour le web.",
       "imageAlt": "Site Portfolio"
     },
     {
-      "eyebrow": "Projet 02",
+      "eyebrow": "Projet 05",
       "title": "Extension Chrome - Analyseur de Navigation Web",
       "subtitle": "Un outil navigateur orienté confidentialité",
       "descriptionTitle": "Description",
@@ -255,26 +419,82 @@
       "imageAlt": "Extension Chrome - Analyseur de Navigation Web"
     },
     {
-      "eyebrow": "Projet 03",
-      "title": "Chatbot Personnel",
-      "subtitle": "Actuellement en développement",
-      "descriptionTitle": "Description",
-      "description": "Ce projet est un chatbot personnel conçu pour répondre à des questions à partir de données et d’informations personnalisées. L’objectif est de créer un outil utile capable de présenter des informations personnelles et d’améliorer l’interaction dans un site personnel ou localement. Le projet est encore en développement et sera publié prochainement.",
-      "technologiesTitle": "Technologies prévues",
-      "technologies": "JavaScript, intégration d’API, HTML, CSS, Python",
-      "learnedTitle": "Statut",
-      "learned": "Bientôt disponible. Ce projet est encore en cours de développement.",
-      "imageAlt": "Chatbot Personnel"    },
-    {
       "eyebrow": "Projet 04",
+      "title": "Assistant IA du portfolio",
+      "subtitle": "Un assistant conversationnel intégré au portfolio",
+      "descriptionTitle": "Description",
+      "description": "Assistant IA intégré au portfolio pour répondre aux questions sur mon profil, mes compétences, mes projets et ma recherche d’alternance. Il utilise une API IA et des données de profil au format JSON dans une interface de conversation bilingue.",
+      "technologiesTitle": "Technologies",
+      "technologies": "JavaScript, TypeScript, HTML, CSS, JSON, Cloudflare Workers, Groq API, Gemini API, OpenRouter API",
+      "learnedTitle": "Ce que j’ai appris",
+      "learned": "Intégration d’API IA, gestion du contexte de conversation, données de profil structurées et interface bilingue.",
+      "imageAlt": "Assistant IA du portfolio"
+    },
+    {
+      "eyebrow": "Projet 01",
       "title": "RheinDevSys - Site Web Client",
       "subtitle": "Une solution web professionnelle pour un client prestataire de développement",
       "descriptionTitle": "Description",
-      "description": "Ce projet est un projet freelance réalisé pour un client via Fiverr. J'ai développé un site web professionnel et moderne pour RheinDevSys, une entreprise fournissant des services de développement et assistance technique. Le site présente leurs services, leur portfolio, et offre une plateforme pour les demandes et l'engagement des clients.",
+      "description": "Ce projet est un projet freelance réalisé pour un client via Fiverr. J'ai développé un site web professionnel et moderne pour DEVTECHSYS GmbH, une entreprise fournissant des services de développement et assistance technique. Le site présente leurs services, leur portfolio, et offre une plateforme pour les demandes et l'engagement des clients.",
       "technologiesTitle": "Technologies",
       "technologies": "HTML, CSS, JavaScript, Design Responsive",
       "learnedTitle": "Ce que j'ai appris",
       "learned": "Communication avec le client et compréhension des besoins, normes professionnelles en conception web, implémentation de mise en page responsive, déploiement en production, et gestion des attentes du client tout au long du processus de développement.",
-      "imageAlt": "Site Web RheinDevSys"    }
+      "imageAlt": "Site Web RheinDevSys"
+    },
+    {
+      "eyebrow": "Projet 02",
+      "title": "Tableau de bord SEO/GEO avec IA",
+      "subtitle": "Audits SEO et visibilité dans les moteurs de réponse IA",
+      "descriptionTitle": "Description",
+      "description": "Tableau de bord full-stack pour auditer des URL, calculer des scores SEO et GEO et générer des recommandations avec l’IA. Il comprend le suivi de mots-clés, l’analyse concurrentielle et des cycles de ré-audit. Frontend React/TypeScript, API FastAPI et base PostgreSQL.",
+      "technologiesTitle": "Technologies",
+      "technologies": "React, TypeScript, Tailwind CSS, Python, FastAPI, PostgreSQL, OpenRouter, Nginx, GitHub Actions",
+      "learnedTitle": "Ce que j’ai appris",
+      "learned": "Intégration d’API IA, analyse de pages web, architecture full-stack et déploiement Linux.",
+      "imageAlt": "Tableau de bord SEO/GEO avec IA"
+    },
+    {
+      "eyebrow": "Projet 06",
+      "title": "Surveillance de serre connectée",
+      "subtitle": "Projet académique · BTS CIEL",
+      "descriptionTitle": "Description",
+      "description": "Projet académique de BTS : réception des mesures de température et d’humidité par XBee, traitement en C++/Qt, affichage local et LED, sauvegarde MySQL et transmission distante par modem Sigfox. La documentation présente l’architecture, le code et les manipulations du prototype.",
+      "technologiesTitle": "Technologies",
+      "technologies": "C++, Qt, XBee, UART / RS232, MySQL, PHP, Sigfox",
+      "learnedTitle": "Ce que j’ai appris",
+      "learned": "Communication série, décodage de trames, interfaces Qt et stockage de mesures de capteurs.",
+      "imageAlt": "Surveillance de serre connectée"
+    },
+    {
+      "eyebrow": "Projet 07",
+      "title": "Installation d’un environnement IA local",
+      "subtitle": "Étude de cas · Stage",
+      "descriptionTitle": "Description",
+      "description": "Étude de cas de stage consacrée à l’installation et à la configuration d’un environnement IA local avec WSL, Ollama, Pinokio et Open WebUI. Le rapport couvre le chargement de modèles, les fonctions documentaires et l’intégration de Stable Diffusion. Ces outils existants constituent la plateforme utilisée.",
+      "technologiesTitle": "Technologies",
+      "technologies": "WSL, Ubuntu, Ollama, Open WebUI, Pinokio, Stable Diffusion",
+      "learnedTitle": "Ce que j’ai appris",
+      "learned": "Installation d’environnements Linux, configuration de modèles locaux, intégration d’outils et documentation technique.",
+      "imageAlt": "Installation d’un environnement IA local"
+    }
+  ],
+  "contactOptions": {
+    "preferredMethod": "Formulaire de contact du portfolio ou email.",
+    "contactForm": {
+      "url": "https://iakob.netlify.app/contact.html",
+      "description": "Le formulaire de contact est accessible depuis la navigation Contact ou le bouton « Ouvrir le formulaire de contact » du portfolio. Les visiteurs peuvent y envoyer directement un message à Iakobi."
+    },
+    "email": "iakobi.dev@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/iakobi-iakobashvili-b157a9230",
+    "phone": "+33 7 62 70 16 71",
+    "githubPurpose": "Consulter le code et les projets ; pour envoyer un message, utiliser le formulaire de contact, l’email ou LinkedIn."
+  },
+  "training": [
+    {
+      "provider": "edX / Harvard",
+      "topic": "Machine learning et IA avec Python",
+      "verificationNote": "Mentionné dans la rubrique Certification du CV ; intitulé officiel, date et validation du certificat non précisés."
+    }
   ]
 }
