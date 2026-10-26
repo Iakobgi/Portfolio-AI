@@ -4,6 +4,10 @@ The website in `../Portfolio2` is the source for portfolio facts. After updating
 
 Run `npx tsc --noEmit` and `npm test -- --run` before deployment.
 
+Skill proficiency lives in the website JSON (`skills.levels`, `skills.levelDescriptions`, and `skills.levelPolicy`). The website renders its colors from those facts, and the assistant receives the same levels. `beginner`/`practicing` are learning; `familiar`/`confident` are established, not expert. Update these fields together with `technical`/`learning`; synchronization rejects contradictory categories or missing levels before writing either language. Keep unrated skills unrated.
+
+`npm run deploy` automatically synchronizes first. A direct `wrangler deploy` bypasses this safeguard, so use the npm command. Synchronizing locally does not update an already deployed assistant until deployment completes.
+
 Provider secrets are configured in Cloudflare: `GROQ_API_KEY`, `GEMINI_API_KEY`, `OPENROUTER_API_KEY`. The backend can use any subset and tries Groq, Gemini, then OpenRouter. A success stops the fallback chain; one visitor question does not require three successful providers.
 
 With keys alone, Groq and Gemini discover chat models from their authenticated model catalogs. Speech, embedding, safety, image and live-only models are excluded; fast chat families are preferred. Catalogs are cached for five minutes per Worker isolate and credential. Gemini pagination and discovery are bounded by a three-second total timeout. OpenRouter uses its automatic `openrouter/free` router. Catalog access does not guarantee inference quota, permissions or free usage on Groq/Gemini; account billing and limits still apply.

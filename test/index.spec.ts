@@ -86,6 +86,36 @@ describe("Portfolio AI", () => {
 
 
 describe("Reliability and portfolio knowledge", () => {
+  it.each(["fr", "en"])("sends the current presentation and proficiency levels in %s", async language => {
+    const fetch = vi.fn().mockResolvedValue(reply("A reply."));
+    vi.stubGlobal("fetch", fetch);
+    await worker.fetch(request({ message: "Describe his profile and skills", language }), { GROQ_API_KEY: "test" });
+    const prompt = JSON.parse(fetch.mock.calls[0][1].body).messages[0].content;
+    const facts = JSON.parse(prompt.split("Portfolio facts:\n")[1]);
+    expect(facts.personal.title).toContain("Full-Stack");
+    expect(facts.personal.myself).toContain(language === "fr" ? "développeur Full-Stack junior" : "junior Full-Stack developer");
+    expect(facts.personal.title).toBe(language === "fr" ? "Développeur Full-Stack" : "Full-Stack Developer");
+    expect(facts.personal.summary).toContain(language === "fr" ? "apprentissage de 12 mois" : "12-month apprenticeship");
+    expect(facts.personal.myself).not.toMatch(/Full-Stack moderne|Full-Stack &/);
+    expect(facts.personal.modernFullStackExplanation).toContain("frontend");
+    expect(facts.personal.modernFullStackExplanation).toContain(language === "fr" ? "fonctionnalités IA" : "AI feature integration");
+    expect(facts.personal.modernFullStackExplanation).toContain(language === "fr" ? "continue à apprendre" : "still learning");
+    expect(facts.apprenticeship.status).toContain(language === "fr" ? "début novembre 2026" : "early November 2026");
+    expect(facts.apprenticeship.goals).not.toMatch(/web, app|applicatif/);
+    expect(facts.skills.levels["HTML/CSS"]).toBe("confident");
+    expect(facts.skills.levels["JavaScript ES6+"]).toBe("familiar");
+    expect(facts.skills.levels.TypeScript).toBe("practicing");
+    expect(facts.skills.levels.MongoDB).toBe("beginner");
+    expect(facts.skills.levels.phpMyAdmin).toBe("familiar");
+    expect(facts.skills.learning).toContain("LangChain");
+    expect(facts.skills.technical).not.toContain("LangChain");
+    expect(facts.skills.levelDescriptions.beginner).toContain(language === "fr" ? "Débutant" : "Beginner");
+    expect(facts.projects[1].period).toBe(language === "fr" ? "Mai 2026" : "May 2026");
+    expect(facts.projects[6].description).toContain("Mixtral");
+    expect(facts.projects[6].documentation.language).toBe("fr");
+    expect(prompt).toContain("Never describe every listed skill as mastered");
+  });
+
   it("uses the same compact prompt and current skill categories across providers", async () => {
     const fetch = vi.fn().mockResolvedValueOnce(new Response("not found", { status: 404 })).mockResolvedValueOnce(reply("A reply."));
     vi.stubGlobal("fetch", fetch);

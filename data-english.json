@@ -8,39 +8,49 @@
     "linkedin": "https://www.linkedin.com/in/iakobi-iakobashvili-b157a9230",
     "github": "https://github.com/Iakobgi",
     "portfolio": "https://iakob.netlify.app/",
-    "summary": "Junior developer looking for a 12-month apprenticeship starting in November 2026, focused on Full-Stack development, AI and DevOps.",
-    "myself": "My name is Iakobi Iakobashvili, I am 24 years old and I am a junior developer specialized in Full-Stack development, DevOps and Artificial Intelligence.",
+    "summary": "I am a junior Full-Stack developer looking for a 12-month apprenticeship starting in early November 2026.",
+    "myself": "My name is Iakobi Iakobashvili, I am 24 years old and I am a junior Full-Stack developer. I work on web and application projects that combine user interfaces, APIs and databases. I also work on AI integration and DevOps practices.",
     "contactForm": "https://iakob.netlify.app/contact.html",
     "drivingLicence": "Category B driving licence",
-    "personalVehicle": true
+    "personalVehicle": true,
+    "modernFullStackExplanation": "His Full-Stack approach connects frontend development, backend services and APIs, databases, and application deployment. He is also interested in AI feature integration, particularly in his portfolio assistant and SEO/GEO dashboard. These reflect current web development practices, but modern is not his professional title. He presents himself as a junior Full-Stack developer and is still learning, as specified by his proficiency levels."
   },
   "apprenticeship": {
-    "status": "Currently looking for a 12-month apprenticeship as a junior developer starting in November 2026.",
-    "availability": "Available for the November 2026 intake",
-    "goals": "Looking for a company where I can use my skills and knowledge to contribute to real projects that the company needs, continue learning in a supportive team, and validate the third year of the bachelor in web, app development, AI and DevOps.",
+    "status": "I am currently looking for a 12-month apprenticeship as a junior developer starting in early November 2026.",
+    "availability": "Available from early November 2026.",
+    "goals": "I am looking for a company where I can contribute my skills and knowledge, continue learning and successfully complete my Bachelor’s year.",
     "schedule": "3 weeks at the company / 1 week of remote training.",
     "mobility": "Available across France; willing to relocate."
   },
   "skills": {
     "technical": [
       "HTML/CSS",
-      "PHP",
+      "PHP 8",
       "SQL",
-      "JavaScript",
+      "JavaScript ES6+",
       "C++",
       "Python",
       "GitHub",
       "Cloud deployment",
       "Linux",
-      "UML",
+      "UML 2",
       "Qt Creator",
       "LLM APIs",
       "Hugging Face",
-      "UI/UX"
+      "UI/UX",
+      "MySQL",
+      "MariaDB",
+      "Netlify",
+      "Hostinger",
+      "Visual Studio Code",
+      "OpenRouter",
+      "Scikit-learn",
+      "NoSQL",
+      "JSON",
+      "phpMyAdmin"
     ],
     "learning": [
       "CI/CD",
-      "Cloud AI services",
       "FastAPI",
       "TypeScript",
       "Dart",
@@ -48,37 +58,97 @@
       "Angular",
       "Node.js",
       "Flutter",
-      "Symfony",
+      "Symfony 7",
       "RAG Pipelines",
       "Docker",
       "REST APIs",
       "Git",
-      "Bash"
+      "Bash",
+      "PostgreSQL",
+      "Supabase",
+      "Cloudflare",
+      "Oracle Cloud",
+      "Render",
+      "Playwright",
+      "MongoDB",
+      "LangChain",
+      "pgvector",
+      "Sequelize",
+      "PL/SQL",
+      "PHPUnit 10",
+      "Unit testing",
+      "Agile"
     ],
     "soft": [
       "Autonomous",
       "Curious",
       "Creative",
-      "Adaptable",
-      "Flexible",
+      "Teamwork",
       "Versatile"
     ],
     "additionalToolsFromCV": [
-      "PostgreSQL",
-      "MySQL",
-      "MariaDB",
-      "Supabase",
-      "Playwright",
-      "Oracle Cloud",
-      "Cloudflare",
-      "Netlify",
-      "Render",
-      "Hostinger",
-      "Visual Studio Code",
-      "GLPI",
-      "Scikit-learn"
+      "GLPI"
     ],
-    "additionalToolsNote": "Tools listed in the CV; no additional proficiency level is specified. Preserve the distinction between established skills and skills being learned."
+    "additionalToolsNote": "Tools listed in the CV; no additional proficiency level is specified. Preserve the distinction between established skills and skills being learned.",
+    "levels": {
+      "HTML/CSS": "confident",
+      "PHP 8": "familiar",
+      "JavaScript ES6+": "familiar",
+      "C++": "confident",
+      "Python": "confident",
+      "GitHub": "familiar",
+      "Cloud deployment": "familiar",
+      "Linux": "familiar",
+      "UML 2": "familiar",
+      "Qt Creator": "confident",
+      "LLM APIs": "familiar",
+      "Hugging Face": "familiar",
+      "UI/UX": "familiar",
+      "MySQL": "familiar",
+      "MariaDB": "familiar",
+      "Netlify": "familiar",
+      "Hostinger": "familiar",
+      "Visual Studio Code": "familiar",
+      "OpenRouter": "familiar",
+      "Scikit-learn": "familiar",
+      "JSON": "familiar",
+      "phpMyAdmin": "familiar",
+      "CI/CD": "practicing",
+      "FastAPI": "practicing",
+      "TypeScript": "practicing",
+      "Dart": "beginner",
+      "React": "practicing",
+      "Angular": "beginner",
+      "Node.js": "practicing",
+      "Flutter": "beginner",
+      "Symfony 7": "beginner",
+      "RAG Pipelines": "practicing",
+      "Docker": "practicing",
+      "REST APIs": "practicing",
+      "Git": "practicing",
+      "Bash": "practicing",
+      "PostgreSQL": "practicing",
+      "Supabase": "practicing",
+      "Cloudflare": "practicing",
+      "Oracle Cloud": "practicing",
+      "Render": "practicing",
+      "Playwright": "beginner",
+      "MongoDB": "beginner",
+      "LangChain": "beginner",
+      "pgvector": "beginner",
+      "Sequelize": "beginner",
+      "PL/SQL": "beginner",
+      "PHPUnit 10": "beginner",
+      "Unit testing": "beginner",
+      "Agile": "beginner"
+    },
+    "levelDescriptions": {
+      "beginner": "Learning · Beginner",
+      "practicing": "Learning · Some foundations",
+      "familiar": "Known · Familiar with the basics",
+      "confident": "Known · Confident"
+    },
+    "levelPolicy": "Levels are self-assessed. beginner and practicing indicate skills being learned; familiar and confident indicate established skills. Established does not mean expert. For skills without an explicit level, use technical or learning without inventing proficiency. Colors and row groupings are presentation choices."
   },
   "education": [
     {
@@ -150,7 +220,8 @@
         "AI API"
       ],
       "pageUrl": "https://iakob.netlify.app/project1.html",
-      "liveUrl": "https://iakob.netlify.app/"
+      "liveUrl": "https://iakob.netlify.app/",
+      "period": "February – June 2026"
     },
     {
       "name": "Web Browsing Analyser",
@@ -166,7 +237,8 @@
       "status": "In development",
       "plannedFeatures": [
         "Toggle to block detected trackers: planned, not implemented yet."
-      ]
+      ],
+      "period": "May 2026"
     },
     {
       "name": "Portfolio AI Assistant",
@@ -184,7 +256,8 @@
         "OpenRouter API"
       ],
       "pageUrl": "https://iakob.netlify.app/project3.html",
-      "demo": "The Live Demo button on the project page opens the chatbot. The chatbot is also available through the floating button on the home page and every project page."
+      "demo": "The Live Demo button on the project page opens the chatbot. The chatbot is also available through the floating button on the home page and every project page.",
+      "period": "Since January 2026"
     },
     {
       "name": "Client Website via Fiverr",
@@ -197,7 +270,8 @@
         "Responsive Design"
       ],
       "pageUrl": "https://iakob.netlify.app/project4.html",
-      "liveUrl": "https://www.rheindevsys.com/"
+      "liveUrl": "https://www.rheindevsys.com/",
+      "period": "July 2026"
     },
     {
       "name": "AI-powered SEO/GEO Dashboard",
@@ -217,7 +291,8 @@
       "pageUrl": "https://iakob.netlify.app/project5.html",
       "liveUrl": "http://141.145.220.152",
       "sourceUrl": "https://github.com/Iakobgi/seo-geo-dashboard",
-      "startDate": "August 2026"
+      "startDate": "August 2026",
+      "period": "Since August 2026"
     },
     {
       "name": "Connected Greenhouse Monitoring",
@@ -239,15 +314,17 @@
         "pdfUrl": "https://iakob.netlify.app/documents/greenhouse-documentation.pdf",
         "availability": "Readable preview and downloadable PDF on the project page."
       },
-      "period": "February - June 2025"
+      "period": "February – June 2025"
     },
     {
       "name": "Local AI Workspace Setup",
-      "shortDescription": "Setting up Ollama and Open WebUI to run AI models locally.",
-      "description": "An internship case study documenting the installation and configuration of a local AI environment with WSL, Ollama, Pinokio and Open WebUI. The report covers loading models, document features and Stable Diffusion integration, using these existing tools as the platform.",
+      "shortDescription": "A local AI environment with Mistral, Mixtral, Ollama and Open WebUI.",
+      "description": "An internship case study at ISAE-ENSMA documenting the installation and configuration of a local AI environment with WSL, Ollama, Pinokio and Open WebUI. The project includes integrating Mistral and Mixtral models and APIs into a local interface, configuring backend APIs and customizing chatbots. It also covers PDF-reading features and image generation with Stable Diffusion, using these existing tools as the platform.",
       "technologies": [
         "WSL",
         "Ubuntu",
+        "Mistral",
+        "Mixtral",
         "Ollama",
         "Open WebUI",
         "Pinokio",
@@ -262,7 +339,7 @@
       },
       "scope": "Installation and configuration of existing tools. The documentation does not establish model training.",
       "organization": "ISAE-ENSMA",
-      "period": "June - July 2024"
+      "period": "June – July 2024"
     }
   ],
   "languages": [
@@ -304,24 +381,25 @@
       "liveDemo": "Live Demo"
     },
     "about": {
-      "eyebrow": "About",
-      "title": "Building clean digital experiences",
-      "subtitle": "A quick introduction",
+      "title": "About me",
       "who": "Who I Am",
       "looking": "What I’m Looking For",
-      "interests": "Hobbies & Interests"
+      "interests": "Hobbies & Interests",
+      "eyebrow": "Introduction",
+      "subtitle": "My profile"
     },
     "skills": {
       "eyebrow": "Skills",
       "title": "Tech stack & tools",
       "subtitle": "Technologies I use and explore",
       "groups": {
-        "frontend": "Frontend & Applications",
-        "backend": "Backend & APIs",
-        "ai": "AI & LLMs",
-        "devops": "DevOps & Cloud",
-        "systems": "Software & Systems",
-        "mindset": "Soft Skills"
+        "frontend": "Web & Applications",
+        "backend": "Backend & Software",
+        "ai": "AI & Data",
+        "devops": "Cloud & DevOps",
+        "systems": "Development Workflow",
+        "mindset": "Soft Skills",
+        "databases": "Databases"
       }
     },
     "projects": {
@@ -334,7 +412,8 @@
       "comingSoonTag": "Coming Soon",
       "nextProject": "Next Project",
       "documentationTitle": "Project documentation",
-      "documentationFallback": "Open the PDF in a new tab"
+      "documentationFallback": "Open the PDF in a new tab",
+      "documentationLanguageNotice": "Documentation available in French only. The introduction follows your selected language; the original report pages remain in French."
     },
     "contact": {
       "eyebrow": "Contact",
@@ -382,7 +461,7 @@
       "title": "Portfolio Assistant",
       "welcome": "Hi! I can help you quickly learn more about Iakobi. Ask me anything about his profile, projects, skills, or apprenticeship search.",
       "toastLabel": "AI Assistant",
-      "toastMessage": "Hey! There’s an AI assistant on this portfolio. You can ask anything about Iakobi.",
+      "toastMessage": "Questions about my profile? Ask my AI assistant.",
       "try": "Try one of these questions:",
       "q1": "What skills does he have?",
       "q2": "Is he looking for an apprenticeship?",
@@ -391,7 +470,16 @@
       "placeholder": "Ask a question...",
       "loading": "My profile data is still loading. Please try again in a second.",
       "fallback": "I do not have that exact information yet. Try asking about skills, education, projects, experience, apprenticeship, contact, GitHub, LinkedIn, or location."
-    }
+    },
+    "heroFacts": {
+      "contractLabel": "Contract",
+      "contract": "12-month apprenticeship",
+      "startLabel": "Available from",
+      "start": "Early November 2026",
+      "mobilityLabel": "Mobility",
+      "mobility": "Throughout France"
+    },
+    "heroFactsLabel": "Apprenticeship"
   },
   "projectPages": [
     {
@@ -404,7 +492,8 @@
       "technologies": "HTML, CSS, JavaScript, JSON, Cloudflare Workers, AI API",
       "learnedTitle": "What I learned",
       "learned": "Responsive design, reusable sections, project presentation, JavaScript interactions, backend AI assistant integration, and lightweight web architecture.",
-      "imageAlt": "Portfolio Website"
+      "imageAlt": "Portfolio Website",
+      "period": "February – June 2026"
     },
     {
       "eyebrow": "Project 05",
@@ -416,7 +505,8 @@
       "technologies": "JavaScript, HTML, CSS, Chrome Extension APIs",
       "learnedTitle": "What I learned",
       "learned": "Extension structure, browser permissions, manifest setup, privacy-related data handling and front-end interface design.",
-      "imageAlt": "Chrome Extension - Web Browsing Analyser"
+      "imageAlt": "Chrome Extension - Web Browsing Analyser",
+      "period": "May 2026"
     },
     {
       "eyebrow": "Project 04",
@@ -428,19 +518,21 @@
       "technologies": "JavaScript, TypeScript, HTML, CSS, JSON, Cloudflare Workers, Groq API, Gemini API, OpenRouter API",
       "learnedTitle": "What I learned",
       "learned": "AI API integration, conversation context management, structured profile data and bilingual chat interface design.",
-      "imageAlt": "Portfolio AI Assistant"
+      "imageAlt": "Portfolio AI Assistant",
+      "period": "Since January 2026"
     },
     {
       "eyebrow": "Project 01",
       "title": "RheinDevSys - Client Website",
       "subtitle": "A professional web solution for a development services client",
       "descriptionTitle": "Description",
-      "description": "This is a freelance project completed for a client through Fiverr. I developed a professional, modern website for DEVTECHSYS GmbH, a company providing development and technical services. The website showcases their services, portfolio, and provides a platform for client inquiries and engagement.",
+      "description": "This is a freelance project completed for a client through Fiverr. I developed a professional, modern website for RheinDevSys, a company providing development and technical services. The website showcases their services, portfolio, and provides a platform for client inquiries and engagement.",
       "technologiesTitle": "Technologies",
       "technologies": "HTML, CSS, JavaScript, Responsive Design",
       "learnedTitle": "What I learned",
       "learned": "Client communication and requirements gathering, professional web design standards, responsive layout implementation, deployment to production, and managing client expectations throughout the development process.",
-      "imageAlt": "RheinDevSys Website"
+      "imageAlt": "RheinDevSys Website",
+      "period": "July 2026"
     },
     {
       "eyebrow": "Project 02",
@@ -452,7 +544,8 @@
       "technologies": "React, TypeScript, Tailwind CSS, Python, FastAPI, PostgreSQL, OpenRouter, Nginx, GitHub Actions",
       "learnedTitle": "What I learned",
       "learned": "AI API integration, web page analysis, full-stack architecture and Linux deployment.",
-      "imageAlt": "AI-powered SEO/GEO Dashboard"
+      "imageAlt": "AI-powered SEO/GEO Dashboard",
+      "period": "Since August 2026"
     },
     {
       "eyebrow": "Project 06",
@@ -464,19 +557,21 @@
       "technologies": "C++, Qt, XBee, UART / RS232, MySQL, PHP, Sigfox",
       "learnedTitle": "What I learned",
       "learned": "Serial communication, frame decoding, Qt interfaces and sensor-data storage.",
-      "imageAlt": "Connected Greenhouse Monitoring"
+      "imageAlt": "Connected Greenhouse Monitoring",
+      "period": "February – June 2025"
     },
     {
       "eyebrow": "Project 07",
       "title": "Local AI Workspace Setup",
       "subtitle": "Internship case study",
       "descriptionTitle": "Description",
-      "description": "An internship case study documenting the installation and configuration of a local AI environment with WSL, Ollama, Pinokio and Open WebUI. The report covers loading models, document features and Stable Diffusion integration, using these existing tools as the platform.",
+      "description": "An internship case study at ISAE-ENSMA documenting the installation and configuration of a local AI environment with WSL, Ollama, Pinokio and Open WebUI. The project includes integrating Mistral and Mixtral models and APIs into a local interface, configuring backend APIs and customizing chatbots. It also covers PDF-reading features and image generation with Stable Diffusion, using these existing tools as the platform.",
       "technologiesTitle": "Technologies",
-      "technologies": "WSL, Ubuntu, Ollama, Open WebUI, Pinokio, Stable Diffusion",
+      "technologies": "WSL, Ubuntu, Mistral, Mixtral, Ollama, Open WebUI, Pinokio, Stable Diffusion",
       "learnedTitle": "What I learned",
       "learned": "Linux environment setup, local model configuration, tool integration and technical documentation.",
-      "imageAlt": "Local AI Workspace Setup"
+      "imageAlt": "Local AI Workspace Setup",
+      "period": "June – July 2024"
     }
   ],
   "contactOptions": {

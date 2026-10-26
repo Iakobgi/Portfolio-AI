@@ -11,6 +11,19 @@ const files = ['data-english.json', 'data-francais.json'].map(name => {
   if (!data.personal || !data.skills?.technical || !data.skills?.learning || !data.apprenticeship) {
     throw new Error(`Missing portfolio facts in ${name}`);
   }
+  if (!data.skills.levels || !data.skills.levelDescriptions || !data.skills.levelPolicy) {
+    throw new Error(`Missing skill proficiency data in ${name}; update the Portfolio2 source first`);
+  }
+  const listedSkills = new Set([...data.skills.technical, ...data.skills.learning]);
+  const learningLevels = new Set(['beginner', 'practicing']);
+  for (const [skill, level] of Object.entries(data.skills.levels)) {
+    if (!listedSkills.has(skill) || !['beginner', 'practicing', 'familiar', 'confident'].includes(level)) {
+      throw new Error(`Invalid skill proficiency for ${skill} in ${name}`);
+    }
+    if (!data.skills.levelDescriptions[level]) throw new Error(`Missing description for ${level} in ${name}`);
+    const category = learningLevels.has(level) ? 'learning' : 'technical';
+    if (!data.skills[category].includes(skill)) throw new Error(`Skill category contradicts proficiency for ${skill} in ${name}`);
+  }
   return { name, text };
 });
 for (const { name, text } of files) writeFileSync(resolve(root, name), text);
