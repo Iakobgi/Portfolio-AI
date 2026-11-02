@@ -225,20 +225,26 @@
     },
     {
       "name": "Analyseur de Navigation Web",
-      "shortDescription": "Une extension Chrome qui analyse les données de navigation, les cookies et les traceurs.",
-      "description": "Une extension Chrome conçue pour aider les utilisateurs à comprendre leur activité de navigation, les cookies et les technologies de suivi, avec un accent sur la confidentialité et l'analyse côté navigateur.",
+      "shortDescription": "Inspection des cookies et des requêtes, avec blocage activable des traceurs connus.",
+      "description": "Extension Chrome Manifest V3 pour inspecter les requêtes de l’onglet courant et ses cookies. Un interrupteur permet de bloquer les requêtes tierces correspondant à une liste embarquée de 15 domaines de traceurs connus. Le choix est conservé après redémarrage. Les domaines tiers inconnus ne sont pas automatiquement considérés comme des traceurs ; la liste ne couvre pas toutes les techniques de suivi.",
       "technologies": [
         "JavaScript",
         "HTML",
         "CSS",
-        "API Extensions Chrome"
+        "Chrome Extension APIs",
+        "Manifest V3",
+        "declarativeNetRequest",
+        "Chrome Storage API"
       ],
       "pageUrl": "https://iakob.netlify.app/project2.html",
-      "status": "En développement",
-      "plannedFeatures": [
-        "Activation du blocage des traceurs détectés : fonctionnalité prévue, pas encore implémentée."
-      ],
-      "period": "Mai 2026"
+      "status": "Version 1.1.0 — blocage des traceurs implémenté",
+      "period": "Mai 2026",
+      "features": [
+        "Blocage activable des traceurs tiers connus",
+        "Préférence persistante",
+        "Inspection par onglet",
+        "Liste de domaines embarquée"
+      ]
     },
     {
       "name": "Assistant IA du portfolio",
@@ -498,13 +504,13 @@
     {
       "eyebrow": "Projet 05",
       "title": "Extension Chrome - Analyseur de Navigation Web",
-      "subtitle": "Un outil navigateur orienté confidentialité",
+      "subtitle": "Analyse de navigation et blocage des traceurs connus",
       "descriptionTitle": "Description",
-      "description": "Ce projet est une extension Chrome qui aide à analyser l’activité de navigation web, les cookies et les traceurs. Il est axé sur la sensibilisation à la confidentialité et l’analyse côté navigateur. Le projet est encore en développement, mais le code source est accessible sur ma page GitHub.",
+      "description": "Extension Chrome Manifest V3 pour inspecter les requêtes de l’onglet courant et ses cookies. Un interrupteur permet de bloquer les requêtes tierces correspondant à une liste embarquée de 15 domaines de traceurs connus. Le choix est conservé après redémarrage. Les domaines tiers inconnus ne sont pas automatiquement considérés comme des traceurs ; la liste ne couvre pas toutes les techniques de suivi.",
       "technologiesTitle": "Technologies",
-      "technologies": "JavaScript, HTML, CSS, API Extensions Chrome",
+      "technologies": "JavaScript, HTML, CSS, Chrome Extension APIs, Manifest V3, declarativeNetRequest, Chrome Storage API",
       "learnedTitle": "Ce que j’ai appris",
-      "learned": "Structure d’une extension, permissions navigateur, configuration du manifest, gestion de données liées à la confidentialité et conception d’interface front-end.",
+      "learned": "Règles déclaratives de blocage, cycle de vie des service workers, stockage des préférences, isolation des données par onglet et tests des états d’erreur.",
       "imageAlt": "Extension Chrome - Analyseur de Navigation Web",
       "period": "Mai 2026"
     },

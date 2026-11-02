@@ -225,20 +225,26 @@
     },
     {
       "name": "Web Browsing Analyser",
-      "shortDescription": "A Chrome extension that analyzes browsing data, cookies and trackers.",
-      "description": "A Chrome extension designed to help users understand their browsing activity, cookies and tracking technologies with a focus on privacy awareness and browser-side analysis.",
+      "shortDescription": "Inspect requests and cookies, with optional blocking of known trackers.",
+      "description": "A Manifest V3 Chrome extension for inspecting current-tab requests and cookies. A toggle blocks third-party requests matching a bundled list of 15 known tracker domains, with the setting preserved across restarts. Unknown third-party domains are not automatically labeled trackers; the list does not cover every tracking technique.",
       "technologies": [
         "JavaScript",
         "HTML",
         "CSS",
-        "Chrome Extension APIs"
+        "Chrome Extension APIs",
+        "Manifest V3",
+        "declarativeNetRequest",
+        "Chrome Storage API"
       ],
       "pageUrl": "https://iakob.netlify.app/project2.html",
-      "status": "In development",
-      "plannedFeatures": [
-        "Toggle to block detected trackers: planned, not implemented yet."
-      ],
-      "period": "May 2026"
+      "status": "Version 1.1.0 — tracker blocking implemented",
+      "period": "May 2026",
+      "features": [
+        "Toggle for blocking known third-party trackers",
+        "Persistent preference",
+        "Per-tab inspection",
+        "Bundled domain list"
+      ]
     },
     {
       "name": "Portfolio AI Assistant",
@@ -498,13 +504,13 @@
     {
       "eyebrow": "Project 05",
       "title": "Chrome Extension - Web Browsing Analyser",
-      "subtitle": "A privacy-focused browser tool",
+      "subtitle": "Browsing inspection and known-tracker blocking",
       "descriptionTitle": "Description",
-      "description": "This project is a Chrome extension that helps analyze web browsing activity, cookies and trackers. It is focused on privacy awareness and browser-side analysis. The project is still under development but you can access the source code on my GitHub page.",
+      "description": "A Manifest V3 Chrome extension for inspecting current-tab requests and cookies. A toggle blocks third-party requests matching a bundled list of 15 known tracker domains, with the setting preserved across restarts. Unknown third-party domains are not automatically labeled trackers; the list does not cover every tracking technique.",
       "technologiesTitle": "Technologies",
-      "technologies": "JavaScript, HTML, CSS, Chrome Extension APIs",
+      "technologies": "JavaScript, HTML, CSS, Chrome Extension APIs, Manifest V3, declarativeNetRequest, Chrome Storage API",
       "learnedTitle": "What I learned",
-      "learned": "Extension structure, browser permissions, manifest setup, privacy-related data handling and front-end interface design.",
+      "learned": "Declarative blocking rules, service-worker lifecycle, preference persistence, tab-scoped data and failure-state testing.",
       "imageAlt": "Chrome Extension - Web Browsing Analyser",
       "period": "May 2026"
     },
